@@ -172,6 +172,7 @@ body {
 }
 .links-block {
     padding-top: 12px;
+    margin-right: 93px;
 }
 .appeal {
     display: block;
@@ -182,6 +183,53 @@ body {
     letter-spacing: 0.03em;
     color: var(--third-text-color);
 }
+.subscription {
+    padding-top: 12px;
+}
+.subscription-field {
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    padding-left: 12px;
+    background-color: var(--second-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+.subscription-field::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.subscription-button {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    padding: 0;
+    padding-left: 28px;
+    align-items: center;
+
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--third-text-color);
+    background-color: var(--hover-color);
+    border:none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+.subscription-form {
+    display: flex;
+}
+.subscription-icon {
+    position: absolute;
+    right: 28px;
+    fill:currentColor;
+    color: var(--third-text-color);
+} 
 
 
 /* &СПІЛЬНІ ЕЛЕМЕНТИ */
